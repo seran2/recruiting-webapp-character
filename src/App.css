@@ -27,9 +27,15 @@
 }
 
 .App-section {
-  flex: 1 1 0;
+  /* flex: 1 1 0; */
+  display: flex;
+  justify-content: space-between;
   background-color: hsl(220deg 13% 13%);
   color: white;
+}
+
+.Component-section{
+  flex: 1 1 0; 
 }
 
 .App-link {
